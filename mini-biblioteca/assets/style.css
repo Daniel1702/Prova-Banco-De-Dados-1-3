@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+    background-size: cover;
+    /* background-image: url("imagens/windows-11-dark-4k-r6-1920x1080.png"); */
+  }
+
+.login-page {
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+#hover-bd input{
+    cursor: pointer;
+}
+
+#hover-bd input:hover{
+    background-color: purple;
+    color: #f2f2f2;
+}
+.container {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .container:before, .container:after {
+    display: block;
+  }
+
+  
+.form,
+.form-bd {
+  position: relative;
+  background:  #464649;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 30px 20px 30px 20px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+h2 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+
+.form-bd a{
+    text-decoration: none;
+    background-color: purple;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+
+    color: #f2f2f2;
+}
+
+.form-bd a:hover {
+    color: rgb(184, 3, 184);
+    background-color: rgb(66, 0, 66);
+}
+
+.form-bd h2,p {
+    color: aliceblue;
+}
+
+
+.title-bd label{
+    font-size: 20px;
+    padding: 5px;
+    color: aliceblue;
+}
+
+#pesquisa-bd {
+    padding: 5px;
+}
+
+
+.form-table-bd  tr, th, td{
+    display: flex;
+    padding: 10px;
+    max-width: 3800px;
+    padding-left: 30px;
+    background-color: white ;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-table {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background:  #464649;
+    height: 70vh;
+    width: 70vh;
+    margin: 20px -25vh 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 30px 20px 30px 20px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#back-bd {
+    padding-top: 400px;
+}
