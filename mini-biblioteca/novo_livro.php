@@ -2,10 +2,12 @@
 <html>
 <head>
   <title>Novo Livro</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+<div class="container">
   <h1>Novo Livro</h1>
-  <form method="post" action="novo_livro_confirmacao.php">
+  <div class="form"> <form method="post" action="novo_livro_confirmacao.php">
     <label>Título:</label>
     <input type="text" name="titulo" required>
     <br>
@@ -23,6 +25,9 @@
     <br>
     <input type="submit" value="Salvar">
   </form>
+</div>
+ 
   <p><a href="index.php">Voltar à página inicial</a></p>
+</div>
 </body>
 </html>

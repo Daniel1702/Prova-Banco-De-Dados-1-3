@@ -1,10 +1,10 @@
 <?php
 require_once('conexao.php');
-if (empty($_GET['id'])) {
+if (empty($_GET['id_livro'])) {
   header('Location: index.php');
 }
-$id_livro = $_GET['id'];
-$sql_livro = "SELECT * FROM Livros WHERE id = $id_livro AND status = 1";
+$id_livro = $_GET['id_livro'];
+$sql_livro = "SELECT * FROM Livros WHERE id_livro = $id_livro AND status = 1";
 $resultado_livro = $conexao->query($sql_livro);
 if ($resultado_livro->num_rows != 1) {
   header('Location: index.php');

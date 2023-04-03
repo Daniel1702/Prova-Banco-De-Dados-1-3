@@ -48,7 +48,7 @@ $resultado = $conexao->query($sql);
         <td><?php echo $livro['autor'] ?></td>
         <td><?php echo $livro['editora'] ?></td>
         <td><?php echo $livro['ano'] ?></td>
-        <td><a href="emprestimo.php?id=<?php echo $livro['id'] ?>">Emprestar</a></td>
+        <td><a href="emprestimo.php?id_livro=<?php echo $livro['id_livro'] ?>">Emprestar</a></td>
       </tr>
       <?php } ?>
     </tbody>
